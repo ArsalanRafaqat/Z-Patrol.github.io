@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Saiyan;
+    src: url(Saiyan-Sans.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: SS;
+    src: url(Saiyan-Sans\ Left\ Oblique.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: Avatar;
+    src: url(Avatar-Airbender.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: Grinch;
+    src: url(GrinchedRegular.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: rugrat;
+    src: url(RugratS.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: indie;
+    src: url(IndieFlower-Regular.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: hawaii;
+    src: url(Hawaii-Font.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: monice;
+    src: url(MoniceDemoRegular.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: comics;
+    src: url(ComicSansMS3.ttf) format(truetype);
+  }
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(kami.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header h1{
+    text-rendering: optimizeSpeed;
+    text-rendering: geometricPrecision;
+    text-overflow: clip;
+    font-size: 100px;
+    font-family: Avatar;
+    letter-spacing: 8px;
+    margin: 0%;
+    color:#fffcebea;
+    text-shadow: 7px 8px rgb(29, 31, 31);
+    margin-top: 10px;
+    cursor: default;
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 80px;
+    margin-right: 180px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li{
+    text-align: center;
+    text-decoration: none;
+    padding:80px 0px;
+    font-size: 45px;
+    color: rgb(255, 246, 234);
+    font-family: Grinch;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.493);
+    letter-spacing: 8px;
+    cursor:default;
+
+  
+}
+.para p{
+    text-align: center;
+    color: aliceblue;
+    font-family: comics;
+    font-size: 30px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.37);
+    margin-top: 40px;
+    cursor:default;
+    margin-right: 20px;
+}
+.para a{
+    text-align: center;
+    text-decoration: none;
+    color:rgb(255, 208, 0);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.603);
+    margin-left: 480px;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+hr{
+    width: 1313px;
+    margin-left: -45px;
+}
+.hr hr{
+    width: 1313px;
+    margin-left: -5px;
+}

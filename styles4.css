@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Saiyan;
+    src: url(Saiyan-Sans.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: SS;
+    src: url(Saiyan-Sans\ Left\ Oblique.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: Avatar;
+    src: url(Avatar-Airbender.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: Grinch;
+    src: url(GrinchedRegular.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: rugrat;
+    src: url(RugratS.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: indie;
+    src: url(IndieFlower-Regular.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: hawaii;
+    src: url(Hawaii-Font.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: monice;
+    src: url(MoniceDemoRegular.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: comics;
+    src: url(ComicSansMS3.ttf) format(truetype);
+  }
+
+  body{
+    background-image: url(kakbg.jpg);
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header h1{
+    margin-right: 250px;
+    font-family: Avatar;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.932);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-indent: 150px;
+    letter-spacing: 9px;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.418);
+    cursor: default;
+  }
+  .header a{
+    text-align: center;
+    text-decoration: none;
+  }
+  .header a button{
+    font-family: Grinch;
+    font-size: 35px;    
+    color: beige;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.459);
+    background-color: rgba(255, 155, 24, 0.37);
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.747);
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    border-style: none;
+    opacity: 80%;
+    cursor: pointer;
+  }
+ .header a button:hover{
+    color: rgba(255, 255, 255, 0.5);
+ }
+
+  .list ul{
+    list-style: none;
+  }
+  .list ul li a{
+    text-align: left;
+    text-decoration: none;
+    color: beige;
+    font-family: monice;
+    font-size: 50px;
+    float: left; 
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.336);
+  }
+  .list ul li{
+    padding: 70px;
+    padding-top: 130px;
+  }
+  .list ul li a:hover{
+    color: rgba(68, 68, 68, 0.075);
+  }

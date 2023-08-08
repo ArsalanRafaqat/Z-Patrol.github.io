@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Saiyan;
+    src: url(Saiyan-Sans.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: SS;
+    src: url(Saiyan-Sans\ Left\ Oblique.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: Avatar;
+    src: url(Avatar-Airbender.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: Grinch;
+    src: url(GrinchedRegular.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: rugrat;
+    src: url(RugratS.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: indie;
+    src: url(IndieFlower-Regular.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: hawaii;
+    src: url(Hawaii-Font.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: monice;
+    src: url(MoniceDemoRegular.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: comics;
+    src: url(ComicSansMS3.ttf) format(truetype);
+  }
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:aliceblue;
+}
+nav{
+  background-color: inherit ;
+  overflow: hidden;
+  opacity: 95%;
+}
+
+.navbar h1{
+  text-rendering: optimizeSpeed;
+  text-rendering: geometricPrecision;
+  text-align: center;
+  text-overflow: clip;
+  font-size: 100px;
+  font-family: Avatar;
+  letter-spacing: 8px;
+  margin: 0%;
+  padding: 20px 0px; 
+  color: rgb(255, 136, 0);
+  text-shadow: 7px 8px rgb(29, 31, 31);
+  text-indent: -150px;
+  margin-top: 20px;
+  cursor: pointer;
+ 
+}
+.img a img{
+  width: 250px;
+  height: 100px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 8px
+}
+.img2 img{
+  width: 180px;
+  height: 125px;
+  float: right;
+  margin-right: 80px;
+}
+
+.mytabs{
+  background-color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin-left: 30px;
+}
+ .mytabs img{
+  width: 300px;
+  height: 450px;
+  float: right;
+  
+  padding-left: 100px;
+  margin-left: 100px;
+  margin-bottom: 150px;
+ 
+}
+
+
+.mytabs input[type="radio"]{
+  display: none;
+}
+.mytabs label{
+   background-color: rgb(255, 153, 0);
+   padding: 10px;
+   font-size: 40px;
+   font-family: Avatar;
+   border-radius: 5px;
+   margin: 20px;
+   margin-top: 10px;
+   margin-bottom: -29px;
+   cursor: pointer;
+}
+.mytabs .tabs{
+  width: 100%;
+  padding: 20px;  
+  display: none; 
+  order: 1;
+}
+.mytabs .tabs h2{
+  font-family: comics;
+  font-size: 30px;  
+}
+.mytabs .tabs p{
+  font-family: comics;
+  font-size: 19px;
+  background-color: rgba(169, 255, 255, 0.089);
+}
+.mytabs input[type='radio']:checked + label + .tabs{
+
+  display: block;
+}
+.mytabs input[type='radio']:checked + label{
+  
+  background-color: rgb(250, 205, 80);
+}
+.table img{
+  width: 330px;
+  height: 540px;
+  float: right;
+}
+.table a{
+text-decoration: none;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+.table li{
+  padding-top: 4px;
+  padding-bottom: 6px;
+}
+.table h2{
+  padding-top: 120px;
+  font-size: 50px;
+  font-family: monice;
+  color: rgb(151, 2, 2);
+  text-shadow: 4px 3px rgba(192, 192, 192, 0.74);
+  border-color: black;
+}
+.table h3{
+  font-size: 40px;
+  font-family: indie;
+  text-shadow: 3px 3px rgba(128, 128, 128, 0.26);
+  letter-spacing: 2px;
+}
+
